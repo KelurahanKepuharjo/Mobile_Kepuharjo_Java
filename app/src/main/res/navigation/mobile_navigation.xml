@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kelurahankepuharjo.s_kepuharjo.fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_pengajuan"
+        android:name="com.kelurahankepuharjo.s_kepuharjo.fragment.PengajuanFragment"
+        android:label="@string/title_pengajuan"
+        tools:layout="@layout/fragment_pengajuan" />
+
+    <fragment
+        android:id="@+id/navigation_status"
+        android:name="com.kelurahankepuharjo.s_kepuharjo.fragment.StatusFragment"
+        android:label="@string/title_status"
+        tools:layout="@layout/fragment_status" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.kelurahankepuharjo.s_kepuharjo.fragment.ProfileFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
